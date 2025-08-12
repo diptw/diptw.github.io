@@ -11,14 +11,30 @@
 
     <!-- Link Eks CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!--Link FavIcon-->
+    <link rel="shortcut icon" href="img/coffee.png" type="image/x-icon">
+
+    <!-- Link GFont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Emilys+Candy&family=Lancelot&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
     <title>My Portofolio</title>
 </head>
 <body>
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bg-dark fixed-top py-3 shadow" data-bs-theme="dark"">
         <div class="container">
-            <a class="navbar-brand" href="#">Diah Pratiwi</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Logo -->
+            <a class="navbar-brand fontlogo" href="#"><img src="img/coffee.png" alt="Logo" width="30" height="30"/> Diah Pratiwi</a>
+            <!-- End Logo -->
+            <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -30,7 +46,10 @@
                     <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
+                    <a class="nav-link" href="#">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery of Art</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
@@ -45,8 +64,8 @@
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
         <img src="img/me2.jpg" alt="Diah Pratiwi" width="400" class="rounded-circle img-thumbnail">
-        <h1 class="display-4">Diah Pratiwi</h1>
-        <p class="lead">Traditional Artist</p>
+        <h1 class="display-4 fontlogo">Diah Pratiwi</h1>
+        <p class="lead textbiasa">Computer Engineering Student | Traditional Artist</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#f3f4f5" fill-opacity="1" 
             d="M0,96L15,128C30,160,60,224,90,213.3C120,203,150,117,180,117.3C210,117,240,203,270,245.3C300,288,330,288,360,282.7C390,277,
@@ -65,22 +84,26 @@
      <section id="About">
         <div class="container">
             <div class="row text-center mb-3">
-                <div class="col">
+                <div class="col judul">
                     <h2>About Me</h2>
                 </div>
             </div>
-            <div class="row justify-content-center fs-5 text-center">
+            <div class="row justify-content-center fs-5 text-center textbiasa">
                 <div class="col-4">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quis fugit officiis recusandae numquam nobis officia illum minus quos. Ea?</p>
+                    <p> I am a Computer Engineering student with a strong interest in technology development, ranging from programming and 
+                        system design to the Internet of Things (IoT). Throughout my studies, I have learned to combine logic, problem-solving 
+                        skills, and creativity to deliver efficient solutions. I believe that technology is not only about innovation but also 
+                        about making a positive impact in everyday life.</p>
                 </div>
                 <div class="col-4">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias rem quia vitae corrupti similique quam optio esse, pariatur deserunt illo. Beatae commodi quo non vero.</p>
+                    <p> Beyond the tech world, I am also a traditional artist who enjoys creating character illustrations and visual art. Using 
+                        pencils, I bring ideas and emotions to life through detailed and story-driven artworks. For me, art is a way to express 
+                        what words often cannot, while also serving as a source of inspiration for every creative project I work on.</p>
                 </div>
             </div>
         </div>
-
      </section>
-
+    <!-- End About -->
 
 
     

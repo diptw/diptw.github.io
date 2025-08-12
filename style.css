@@ -1,7 +1,22 @@
 .jumbotron {
     padding-top: 5rem;
-    background-color: #545353;
+    background-color: #be66c9;
 }
 .textname {
     background-color: white;
+}
+.fontlogo {
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.textbiasa {
+  font-family: "Lancelot", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.judul {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
 }
