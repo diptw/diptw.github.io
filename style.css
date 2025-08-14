@@ -1,6 +1,6 @@
 .jumbotron {
     padding-top: 5rem;
-    background-color: #be66c9;
+    background-color: #6e5a47;
 }
 .textname {
     background-color: white;
@@ -29,4 +29,7 @@
 #project img  {
   height: 350px;
 	width: auto;
+}
+.color {
+  background-color: #f3f4f5;
 }
