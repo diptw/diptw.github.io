@@ -26,3 +26,7 @@
 #gallery {
  padding-top: 5rem;
 } 
+#project img  {
+  height: 350px;
+	width: auto;
+}
