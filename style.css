@@ -37,3 +37,18 @@
   height: 500px;
 	width: auto;
 }
+.tengah {
+  text-align: justify;
+}
+#contact {
+  padding-top: 5rem;
+}
+.coklat {
+    background-color: #6e5a47;
+}
+.tbrwn  {
+    color: #6e5a47;
+}
+.putih {
+  color: #f3f4f5;
+}
