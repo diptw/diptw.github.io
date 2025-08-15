@@ -23,13 +23,17 @@
 #project {
   padding-top: 5rem;
 }
-#gallery {
- padding-top: 5rem;
-} 
 #project img  {
   height: 350px;
 	width: auto;
 }
 .color {
   background-color: #f3f4f5;
+}
+#gallery {
+ padding-top: 5rem;
+} 
+#gallery img {
+  height: 500px;
+	width: auto;
 }
